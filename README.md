@@ -3,6 +3,8 @@ Hello, My name is Theresa and I am a student and a programmer (sort of) and an e
 
 ![Theresa Haley](headshot.jpg)
 
+Hello again :)
+
 ### This is very cool and here are some ideas for what I want to include
 - Making a link of all of my linkedin and stuff like that
 - Making a list of cool photos 
