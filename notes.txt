@@ -1,5 +1,6 @@
 List of cool stuff
 
 - style="background-color:indianred ;"
+- python3 -m http.server
 
 

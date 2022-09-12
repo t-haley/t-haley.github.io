@@ -7,3 +7,12 @@ p {
     color: navy;
     margin-left: 20px;
     }
+
+.navbar {
+    position: fixed;
+    height: 55px;
+    width: 100%; /* So it goes across the entire screen */
+    background-color: grey;
+    top: 0;
+    left: 0; /* top and left basically fixes the navbar to the top */
+    }
