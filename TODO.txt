@@ -1,0 +1,9 @@
+Things which I can add
+- Making a menu bar with Info, blogs/projects (ohhh maybe make a drop down thing?), resume, Cool photos?, 
+
+List of cool stuff
+
+- style="background-color:indianred ;"
+- python3 -m http.server
+
+
