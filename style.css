@@ -1,28 +1,34 @@
-/* body {
-    background-color: lightblue;
-    } */
+body {
+    background-color:  rgba(175, 238, 238, 0.432);
+  }
 
 * {
     margin: 0;
     /* padding: 0; */
     box-sizing: border-box;
+    /* padding: 50 */
     
   }
-
 
 p {
     color: navy;
     margin-left: 20px;
-    padding: 50px;
+    padding: 5px;
 
   }
 
-head {
-    position: absolute;
-    background-color: aquamarine;
-    /* top: 100px; */
-    /* bottom: 100px; */
-    }
+h1 {
+    padding: 30px;
+    /* background-color: rgba(175, 238, 238, 0.432); */
+  }
+
+h2 {
+    padding: 5px;
+  }
+
+h3 {
+    padding: 5px;
+  }
 
 /* Style the navigation menu */
 .navbar {
@@ -31,6 +37,7 @@ head {
     overflow: auto;
     position: sticky;
     top: 0;
+    /* margin: 0; */
     /* left: 0; */
     /* overflow: ; */
     /* height: 50px; */
@@ -42,10 +49,10 @@ head {
 .navbar a {
     float: left;
     padding: 12px;
-    color: darkblue;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 17px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
   }
 
