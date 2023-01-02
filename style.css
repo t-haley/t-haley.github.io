@@ -1,18 +1,40 @@
-body {
+/* body {
     background-color: lightblue;
-    }
+    } */
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+  }
+
 
 p {
     color: navy;
     margin-left: 20px;
-    }
+    padding: 50px;
 
+  }
+
+head {
+    position: absolute;
+    background-color: aquamarine;
+    /* top: 100px; */
+    /* bottom: 100px; */
+    }
 
 /* Style the navigation menu */
 .navbar {
     width: 100%;
     background-color: #555;
     overflow: auto;
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    /* overflow: ; */
+    /* height: 50px; */
+    /* margin: ; */
   }
   
 
@@ -20,7 +42,7 @@ p {
 .navbar a {
     float: left;
     padding: 12px;
-    color: white;
+    color: darkblue;
     text-decoration: none;
     font-size: 17px;
     width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -43,6 +65,6 @@ p {
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
+      /* text-align: left; If you want the text to be left-aligned on small screens */
     }
   }
