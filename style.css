@@ -6,6 +6,7 @@ body {
     margin: 0;
     /* padding: 0; */
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', Times, serif;
     /* padding: 50 */
     
   }
@@ -28,6 +29,14 @@ h2 {
 
 h3 {
     padding: 5px;
+  }
+
+img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
   }
 
 /* Style the navigation menu */
@@ -58,12 +67,12 @@ h3 {
 
   /* Add a background color on mouse-over */
 .navbar a:hover {
-    background-color: #000;
+    background-color: navy;
   }
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: #04AA6D;
+    background-color: skyblue;
   }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */

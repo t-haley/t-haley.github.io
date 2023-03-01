@@ -7,3 +7,5 @@ List of cool stuff
 - python3 -m http.server
 
 
+Learnings
+- w3schools has been amazing for making this :)
