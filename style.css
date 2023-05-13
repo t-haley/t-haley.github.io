@@ -3,10 +3,11 @@ body {
   }
 
 * {
-    margin: 0;
-    /* padding: 0; */
+    margin: 0px;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', Times, serif;
+    font-family: Courier, 'Trebuchet MS', Times, serif;
+    color: beige;
     /* padding: 50 */
     
   }
@@ -18,18 +19,6 @@ p {
 
   }
 
-h1 {
-    padding: 30px;
-    /* background-color: rgba(175, 238, 238, 0.432); */
-  }
-
-h2 {
-    padding: 5px;
-  }
-
-h3 {
-    padding: 5px;
-  }
 
 img {
     display: block;
@@ -42,22 +31,34 @@ img {
 #header
 {
     width: 100%;
-    background-color: green;
+    background-color: rgba(11, 36, 77);
+    min-height: 100px;
 }
 
 #name-part
 {
-    width: 35%;
+    width: 200px;
     float: left;
-    background-color: lightpink;
+    background-color: rgba(11, 36, 77);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
-#nav-links
-{
-    width: 60%;
+#main-content {
+    width: 100%;
+    background-color: aquamarine;
+    min-height: 400px;
+}
+
+#headshot {
+    background-color: aliceblue;
+    float: left;
+}
+
+#intro {
+    background-color: blueviolet;
     float: right;
-    background-color: lightcoral
-    ;
 }
 
 .clearfix::after
@@ -70,8 +71,9 @@ img {
 
 /* Style the navigation menu */
 .navbar {
-    width: 60%;
-    background-color: #555;
+    width: 400px;
+    background-color: rgba(11, 36, 77);
+    padding: 25px;
     /* overflow: auto;
     position: sticky; */
     float: right;
@@ -86,22 +88,26 @@ img {
 /* Navigation links */
 .navbar a {
     float: left;
-    padding: 12px;
+    /* padding: 12px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
     color: whitesmoke;
-    text-decoration: none;
-    font-size: 17px;
-    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-decoration: wavy;
+    font-size: 20px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
   }
 
   /* Add a background color on mouse-over */
 .navbar a:hover {
-    background-color: navy;
+    color: aqua;
+    
   }
   
   /* Style the current/active link */
   .navbar a.active {
     background-color: skyblue;
+    /* margin-bottom: 5px; */
   }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
