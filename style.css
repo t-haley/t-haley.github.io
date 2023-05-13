@@ -39,13 +39,42 @@ img {
     border-radius: 2%;
   }
 
+#header
+{
+    width: 100%;
+    background-color: green;
+}
+
+#name-part
+{
+    width: 35%;
+    float: left;
+    background-color: lightpink;
+}
+
+#nav-links
+{
+    width: 60%;
+    float: right;
+    background-color: lightcoral
+    ;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 /* Style the navigation menu */
 .navbar {
-    width: 100%;
+    width: 60%;
     background-color: #555;
-    overflow: auto;
-    position: sticky;
-    top: 0;
+    /* overflow: auto;
+    position: sticky; */
+    float: right;
     /* margin: 0; */
     /* left: 0; */
     /* overflow: ; */
