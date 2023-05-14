@@ -1,12 +1,14 @@
 body {
-    background-color:  rgba(175, 238, 238, 0.432);
+    background-color:  rgba(11, 36, 77);
   }
 
 * {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family: Courier, 'Trebuchet MS', Times, serif;
+    /* font-family: american typewriter, Courier, 'Trebuchet MS', Times, serif; */
+    /* font-family:'Courier New', Courier, monospace; */
+    font-family: Lucida Console, sans-serif;
     color: beige;
     /* padding: 50 */
     
@@ -19,20 +21,11 @@ p {
 
   }
 
-
-img {
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2%;
-  }
-
 #header
 {
     width: 100%;
     background-color: rgba(11, 36, 77);
-    min-height: 100px;
+    /* min-height: 100px; */
 }
 
 #name-part
@@ -47,18 +40,26 @@ img {
 
 #main-content {
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     min-height: 400px;
 }
 
 #headshot {
-    background-color: aliceblue;
+    background-color: rebeccapurple;
     float: left;
+    padding: 40px;
+    width: 40%;
+}
+
+#head-shot-img {
+    border-radius: 8%;
+    width: 100%;
 }
 
 #intro {
     background-color: blueviolet;
     float: right;
+    width: 60%;
 }
 
 .clearfix::after
@@ -73,7 +74,7 @@ img {
 .navbar {
     width: 400px;
     background-color: rgba(11, 36, 77);
-    padding: 25px;
+    padding: 28px;
     /* overflow: auto;
     position: sticky; */
     float: right;
@@ -91,9 +92,8 @@ img {
     /* padding: 12px; */
     /* padding-left: 10px;
     padding-right: 10px; */
-    color: whitesmoke;
     text-decoration: wavy;
-    font-size: 20px;
+    font-size: 15px;
     width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
   }
@@ -104,11 +104,13 @@ img {
     
   }
   
-  /* Style the current/active link */
+  /* Style the current/active link
   .navbar a.active {
-    background-color: skyblue;
-    /* margin-bottom: 5px; */
-  }
+
+    /* background-color: skyblue; */
+    /* margin-bottom: 5px;
+  } 
+  */
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
   @media screen and (max-width: 500px) {
