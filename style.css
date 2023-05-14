@@ -26,7 +26,7 @@ p {
     width: 100%;
     background-color: rgba(11, 36, 77);
     /* min-height: 100px; */
-    padding: 40px;
+    padding: 50px;
 }
 
 #name-part
@@ -81,7 +81,7 @@ p {
 
 /* Style the navigation menu */
 .navbar {
-    width: 400px;
+    /* width: 400px; */
     background-color: rgba(11, 36, 77);
     /* padding: 28px; */
     float: right;
@@ -94,9 +94,10 @@ p {
     float: left;
     text-decoration: wavy;
     font-size: 20px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    /* width: 25%; Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
     padding: 10px;
+    
   }
 
   /* Add a background color on mouse-over */
