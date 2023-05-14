@@ -26,39 +26,48 @@ p {
     width: 100%;
     background-color: rgba(11, 36, 77);
     /* min-height: 100px; */
+    padding: 40px;
 }
 
 #name-part
 {
-    width: 200px;
+    width: 40%;
     float: left;
     background-color: rgba(11, 36, 77);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    /* padding: 20px; */
+    font-size: 40px;
+    /* text-align: center; */
+    margin-left: 50px;
 }
 
 #main-content {
     width: 100%;
     /* background-color: aquamarine; */
-    min-height: 400px;
+    /* min-height: 400px; */
+    /* padding: 40px; */
+    padding-top: 45px;
 }
 
 #headshot {
-    background-color: rebeccapurple;
+    background-color: rgba(11, 36, 77);
     float: left;
-    padding: 40px;
+    /* padding: 40px; */
     width: 40%;
+    /* margin: auto; */
+
 }
 
 #head-shot-img {
     border-radius: 8%;
-    width: 100%;
+    width: 300px;
+    margin: auto;
+    display: block;
 }
 
 #intro {
-    background-color: blueviolet;
+    background-color: rgba(11, 36, 77);
     float: right;
+    padding-right: 100px;
     width: 60%;
 }
 
@@ -74,28 +83,20 @@ p {
 .navbar {
     width: 400px;
     background-color: rgba(11, 36, 77);
-    padding: 28px;
-    /* overflow: auto;
-    position: sticky; */
+    /* padding: 28px; */
     float: right;
-    /* margin: 0; */
-    /* left: 0; */
-    /* overflow: ; */
-    /* height: 50px; */
-    /* margin: ; */
+    margin-right: 50px;
   }
   
 
 /* Navigation links */
 .navbar a {
     float: left;
-    /* padding: 12px; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
     text-decoration: wavy;
-    font-size: 15px;
+    font-size: 20px;
     width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
+    padding: 10px;
   }
 
   /* Add a background color on mouse-over */
